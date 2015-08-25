@@ -54,8 +54,8 @@ def get_voc_header(fname, img_size,annotate_folder):
 	height = SubElement(size_part,'height')
 	depth = SubElement(size_part,'depth')
 
-	width.text = str(img_size[0])
-	height.text = str(img_size[1])
+	width.text = str(img_size[1])
+	height.text = str(img_size[0])
 	if len(img_size)==3:
 		depth.text = str(img_size[2])
 	else:
