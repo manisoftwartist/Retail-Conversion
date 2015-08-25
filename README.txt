@@ -80,12 +80,12 @@ STEP 2 : COPY YOUR DATASET TO PASCAL VOC Folder
 
 i) Run copy_dataset.sh as follows 
 
-sh copy_dataset ./videos1 ~/temp/VOC2007/VOCdevkit/VOC2007 jpg
+sh copy_dataset ./videos1 ~/temp/VOC2007/VOCdevkit/VOC2007 jpg videos1
 
 This will do the following 
 
  a) Copy all images and annotations to the destined folders JPEGImages and Annotations respectively.
- b) Create two file trainval.txt and train.txt in your pwd.
+ b) Create two file videos1_trainval.txt and videos1_train.txt in your pwd.
 
 These two files have to be put in ~/temp/VOC2007/VOCdevkit/VOC2007/ImageSets/Main 
 
